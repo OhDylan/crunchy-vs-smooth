@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+crunchy_vs_smooth = "B6KvufCaTEkT81SKGj6kSBcENXSrt36TDfksQHyAv8yj"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/dylanoh/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
